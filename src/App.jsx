@@ -444,7 +444,7 @@ export default function App() {
                 // Check for new additions (Real-time Notification Logic)
                 if (!isInitialMount.current && snapshot.docChanges().some(change => change.type === 'added')) {
                     if (typeLabel === 'Notice') announce("नयाँ सुचना आएको छ, कृपया हेर्नुहोला।");
-                    if (typeLabel === 'Task') announce("नयाँ टास्क थपिएको छ।");
+                    if (typeLabel === 'Task') announce("नयाँ टास्क थपिएको छ, कृपया समयमै पुरा गर्नुहोला।");
                 }
                 setDataLoading(false);
             }, (err) => {
