@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Program-Management-System/", // यो लाइन अनिवार्य छ (तपाईंको रिपोजिटरीको नाम)
+  // GitHub Repo को नाम ठ्याक्कै यहाँ राख्नुहोला (Case Sensitive हुन्छ)
+  base: "/Program-Management-System/",
 })
